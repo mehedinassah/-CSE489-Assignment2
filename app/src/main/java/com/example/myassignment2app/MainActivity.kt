@@ -225,9 +225,12 @@ fun CustomBroadcastReceiverScreen(message: String) {
         val filter = IntentFilter("com.example.myassignment2app.CUSTOM_BROADCAST")
         context.registerReceiver(receiver, filter, Context.RECEIVER_NOT_EXPORTED)
 
-        val broadcastIntent = Intent("com.example.myassignment2app.CUSTOM_BROADCAST")
-        broadcastIntent.putExtra("MESSAGE", message)
-        context.sendBroadcast(broadcastIntent)
+        // Send broadcast AFTER receiver is registered, with a small delay
+        android.os.Handler(android.os.Looper.getMainLooper()).postDelayed({
+            val broadcastIntent = Intent("com.example.myassignment2app.CUSTOM_BROADCAST")
+            broadcastIntent.putExtra("MESSAGE", message)
+            context.sendBroadcast(broadcastIntent)
+        }, 200)
 
         onDispose { context.unregisterReceiver(receiver) }
     }
