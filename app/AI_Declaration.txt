@@ -1,0 +1,64 @@
+============================================================
+           AI USAGE DECLARATION
+============================================================
+
+Name: Mehedi Hassan
+Student ID: 24341233
+Assignment: CSE 489 - Mobile Application Development - Assignment 2
+Date: 01 March 2026
+
+------------------------------------------------------------
+1. AI TOOLS USED (check all that apply)
+------------------------------------------------------------
+[ ] None
+[x] ChatGPT
+[ ] GitHub Copilot
+[ ] Google Gemini
+[x] Claude
+[ ] Cursor
+[ ] Other: You tube, assignment links
+
+------------------------------------------------------------
+2. PURPOSE OF AI USE (check all that apply)
+------------------------------------------------------------
+[X] Learning/understanding concepts
+[X] Debugging my code
+[X] Generating code snippets
+[ ] Writing text content
+[ ] Design/styling ideas
+[ ] Image generation
+[ ] Other: _______GitHub commit_________
+
+------------------------------------------------------------
+3. DESCRIPTION OF AI USE
+------------------------------------------------------------
+Used different sources as a step-by-step guide to build the Android
+application. These resources helped set up the project structure,
+implement the Navigation Drawer using Jetpack Compose,
+create the Broadcast Receiver flow (custom and battery),
+implement the Image Scale with pinch-to-zoom gesture,
+set up the Video and Audio players using MediaPlayer.
+All code was reviewed and understood before submission.
+
+------------------------------------------------------------
+4. AI-ASSISTED SECTIONS
+------------------------------------------------------------
+File: MainActivity.kt     Section: Navigation Drawer Setup
+File: MainActivity.kt     Section: Broadcast Receiver Flow
+File: MainActivity.kt     Section: Image Scale, Video, Audio
+
+------------------------------------------------------------
+5. DECLARATION
+------------------------------------------------------------
+I declare that:
+- This disclosure is complete and accurate
+- I understand all code in my submission
+- I can explain and modify my work if asked
+- I take full responsibility for my submission
+
+Signature: Mehedi Hassan
+Date: 01 March 2026
+
+============================================================
+Save as: docs/AI_Declaration.txt
+============================================================
